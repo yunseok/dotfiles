@@ -140,8 +140,11 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Launch polybar
+# launch polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-new_window pixel 1
-hide_edge_borders true
+# disable titlebar
+for_window [class="^.*"] border pixel 0
+
+# set random wallpaper
+exec_always --no-startup-id feh --randomize --bg-scale $HOME/.wallpapers/*
