@@ -1,0 +1,93 @@
+[bar/yuh]
+        dpi = 107
+        width = 100%
+        height = 24
+
+        background = #1E1E21
+        foreground = #E3E3E3
+
+        modules-left = battery cpu memory network xwindow
+        modules-right = i3 pulseaudio date
+
+        font-0 = "scientifica:pixelsize=10;1"
+
+        padding-left = 1
+        padding-right = 1
+
+        module-margin-left = 1
+
+; ==============
+; MODULES [LEFT]
+; ==============
+
+[module/battery]
+        type = internal/battery
+        full-at = 100
+
+        battery = BAT0
+        adapter = AC0
+
+        format-charging = <label-charging>
+        format-discharging = <label-discharging>
+        format-full = <label-full>
+        label-charging = PWR: %percentage%% |
+        label-discharging = PWR: %percentage%% |
+        label-full = PWR: %percentage%% |
+
+[module/cpu]
+        type = internal/cpu
+        interval = 2
+
+        format = <label>
+        label = CPU: %percentage%% |
+
+[module/memory]
+        type = internal/memory
+        interval = 2
+
+        format = <label>
+        label = RAM: %percentage_used%% |
+
+[module/network]
+        type = internal/network
+        interface = wlo1
+        interval = 3
+
+        format-connected <label-connected>
+        label-connected = DL: %downspeed% | %local_ip% |
+
+[module/xwindow]
+        type = internal/xwindow
+
+        format = <label>
+        label = %title%
+
+
+; ===============
+; MODULES [RIGHT]
+; ===============
+
+[module/i3]
+        type = internal/i3
+        pin-workspaces = true
+        strip-wsnumbers = true
+        enable-click = true
+        enable-scroll = true
+
+[module/pulseaudio]
+        type = internal/pulseaudio
+        interval = 2
+
+        format-volume = <label-volume>
+        format-muted = <label-muted>
+        label-volume = | VOL: %percentage%% |
+        label-muted = | VOL: %percentage%% |
+
+[module/date]
+        type = internal/date
+
+        date = %d.%m.%Y
+        time = %H:%M
+
+        format = <label>
+        label = %date% | %time%

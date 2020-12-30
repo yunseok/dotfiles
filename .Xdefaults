@@ -1,0 +1,14 @@
+*.background: #1E1E21
+*.foreground: #E3E3E3
+URxvt.scrollbar_right: true
+URxvt.underlineURLs: true
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.internalBorder: 24
+URxvt.depth: 24
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.urlLauncher: firefox
+URXvt.urlButton: 1
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
