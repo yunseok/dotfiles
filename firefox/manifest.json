@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "dari3",
+  "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "images/bg-000-5672c42860d5b06e1058dc477397f3ef.svg"
+      ]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "toolbar": "rgb(25, 25, 25)",
+      "toolbar_text": "rgb(252, 252, 252)",
+      "frame": "rgb(25, 25, 25)",
+      "tab_background_text": "rgb(252, 252, 252)",
+      "toolbar_field": "rgb(25, 25, 25)",
+      "toolbar_field_text": "rgb(252, 252, 252)",
+      "tab_line": "rgb(252, 252, 252)",
+      "popup": "rgb(25, 25, 25)",
+      "popup_text": "rgb(252, 252, 252)",
+      "ntp_background": "rgb(25, 25, 25)",
+      "sidebar_border": "rgb(25, 25, 25)",
+      "sidebar_highlight": "rgb(34, 25, 77)",
+      "toolbar_field_border_focus": "rgb(25, 25, 25)",
+      "toolbar_field_focus": "rgb(25, 25, 25)",
+      "toolbar_field_highlight_text": "rgb(25, 25, 25)",
+      "toolbar_field_highlight": "rgb(252, 252, 252)",
+      "toolbar_field_text_focus": "rgb(252, 252, 252)",
+      "tab_loading": "rgb(252, 252, 252)"
+    }
+  }
+}
