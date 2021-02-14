@@ -121,4 +121,4 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 for_window [class="^.*"] border pixel 0
 
 # launch rofi (run mode)
-bindsym $mod+d exec "rofi -mode run"
+bindsym $mod+d exec "rofi -show run"
