@@ -6,15 +6,18 @@
         background = #191919
         foreground = #FCFCFC
 
-	font-0 = "unifont:pixelsize=11;1"
+	font-0 = "unifont:pixelsize=10;1"
 
-        modules-left = cpu memory network
-	modules-center = xwindow
+        modules-left = cpu memory xwindow
         modules-right = i3 pulseaudio date
         padding-left = 1
         padding-right = 1
 
         module-margin-left = 1
+
+; ==============
+; MODULES [LEFT]
+; ==============
 
 [module/cpu]
         type = internal/cpu
@@ -30,18 +33,18 @@
         format = <label>
         label = RAM: %percentage_used%% |
 
-[module/network]
-	type = internal/network
-	interface = enp2s0
-	interval = 2
-
-	label-connected = DL: %downspeed% | UP: %upspeed% | %local_ip%
-
 [module/xwindow]
         type = internal/xwindow
 
         format = <label>
-        label = | %title% |
+        label = %title%
+;
+;
+;
+
+; ===============
+; MODULES [RIGHT]
+; ===============
 
 [module/i3]
         type = internal/i3

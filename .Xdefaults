@@ -1,5 +1,5 @@
-*.background: #1E1E21
-*.foreground: #E3E3E3
+*.background: #191919
+*.foreground: #FCFCFC
 URxvt.scrollBar_right: false
 URxvt.scrollBar: false
 URxvt.underlineURLs: true
@@ -13,3 +13,4 @@ URxvt.urlLauncher: firefox
 URXvt.urlButton: 1
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.font: xft:Unifont:size=14

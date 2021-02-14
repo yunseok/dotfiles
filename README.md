@@ -1,14 +1,15 @@
-This repository contains my personal dotfiles, I upload it here so I don't lose it
+# dotfiles
 
-[Wallpapers download](https://www8.zippyshare.com/v/YjeOR1EQ/file.html)
+This repository contains my personal dotfiles, I git it here so I don't lose it
 
-## todos
+## Credits
 
-- [ ] add border shadow 
-- [ ] be able to control brightness with hotkeys
-- [ ] customize launcher (and get rid of dmenu)
-- [ ] firefox theming
-- [ ] being able to screenshot
-- [ ] add screenshots to repository
-
-## screenshots
+Window Manager: [i3](https://i3wm.org/)
+Status Bar: [polybar](https://github.com/polybar/polybar)
+Display Manager: [ly](https://github.com/nullgemm/ly)
+Font: [GNU Unifont](https://unifoundry.com/unifont/index.html)
+Cursor: N/A
+Terminal: [urxvt](https://linux.die.net/man/1/urxvt)
+File Manager: [Ranger](https://cmus.github.io/)
+Music Player: [cmus](https://cmus.github.io/)
+Browsers: [Firefox](https://www.mozilla.org/en-US/firefox/new/) | [Tor Browser](https://www.torproject.org/)
