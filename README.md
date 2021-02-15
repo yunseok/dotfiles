@@ -2,6 +2,10 @@
 
 This repository contains my personal dotfiles, I git it here so I don't lose it
 
+## Screenshot
+
+<img src="https://i.imgur.com/gIHUBHG.png" alt />
+
 ## Credits
 
 - Window Manager: [i3](https://i3wm.org/)
