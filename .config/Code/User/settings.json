@@ -1,6 +1,7 @@
 {
     "editor.fontFamily": "'Unifont', 'monospace', monospace, 'Droid Sans Fallback'",
-    "workbench.colorTheme": "Dark+ Material",
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Blackboard",
     "workbench.colorCustomizations": {
         "activityBar.background": "#191919",
         "activityBar.activeBackground": "#212121",
